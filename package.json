@@ -1,0 +1,23 @@
+{
+  "name": "tasks_todo",
+  "version": "1.0.0",
+  "description": "API to create a Todo app",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mathys-Fillion/Tasks_todo.git"
+  },
+  "author": "Mathys Fillion",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.7"
+  }
+}
